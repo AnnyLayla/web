@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Formulario de Acceso</title>
+</head>
+<header>
+    <div class="logo">Web</div>   
+    <!--  -->
+<div class="hamburger"> 
+<div class="line">
+
+</div>
+<div class="line"></div>
+<div class="line"></div>
+</div>
+
+<nav class="nav-bar"> 
+<ul>
+<li>
+    <a href="inicio.html" class="active">Home</a>
+</li>
+<li>
+    <a href="artistas.html">Artistas</a>
+</li>
+<li>
+    <a href="vanguardias.html">Vanguardias</a>
+</li>
+
+<li>
+    <a href="formulario.html">Contactos</a>
+</li>
+</ul>
+</nav>
+</header>
+
+<body>
+    <h1 class="p-inscripcion"> Formulario de Acceso  </h1>
+    <br>
+    <div class="content-container">
+        <br>
+        <form class="inscripcion-form" action="">
+            
+            <br>
+            <label type="name">Nombre</label>
+            <input required type="text" id="name" name="name">
+            <label for="apellido">Apellido</label>
+            <input required type="text" id="apellido" name="apellido">
+            <label for="date">Fecha de nacimiento</label>
+            <input required type="date" id="date" name="date">
+            <label for="email">E-mail</label>
+            <input required type="email" id="email" name="email">
+            <p>Ingrese el siguiente codigo:</p>
+            <p id="captcha"></p> 
+            <label for="valorcaptcha"> Verifiación de seguridad</label>
+            <input required type="text" id="valorCaptcha"/>
+            <p id="resultado"></p>
+            <br>
+            <button type="submit" id="botonCaptcha" value="enviar "> enviar</button>
+
+            
+            
+        </form>
+
+  
+</body>
+<script src="javascript.js"></script>
+</html>
